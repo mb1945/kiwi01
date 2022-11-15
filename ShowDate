@@ -1,5 +1,0 @@
-var showNewDate = {
-seven: function (finddate){
-return finddate.setDate(finddate.getDate()+7)
-}
-};
