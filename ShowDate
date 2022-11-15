@@ -1,0 +1,5 @@
+var showNewDate{
+create: function(date){
+return date.setDay(date.getDay()+7)
+}
+}
