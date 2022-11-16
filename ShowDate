@@ -1,3 +1,1 @@
-function showDate(){
-return new Date()//date.setDate(date.getDate()+7)
-}
+var showDate = new Date()//date.setDate(date.getDate()+7)
