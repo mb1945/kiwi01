@@ -1,1 +1,7 @@
-var showMe = "1234"
+var showDay = {
+
+create: function (date){
+
+return date.setDate(date.getDate()+7)}}
+
+
