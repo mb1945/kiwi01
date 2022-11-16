@@ -1,1 +1,1 @@
-var showDate = new Date()//date.setDate(date.getDate()+7)
+var showDate = "1234"//new Date()//date.setDate(date.getDate()+7)
