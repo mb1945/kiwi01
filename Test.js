@@ -1,36 +1,6 @@
 var AndroidCalendar = {
 
-    /**
-
-    Add a calendar event
-
-    @param {String} title - The event title
-
-    @param {Arguments} options - Extra options
-
-    You can then specify various event details using extra options:
-
-      {String} desk - The event description
-
-      {Date} begin - The start time of the event
-
-      {Date} end - The end time of the event
-
-      {bool} allDay - A boolean specifying whether this is an all-day event
-
-      {String} location - The event location
-
-      {Array} emails - Array of email addresses that specify the invitee
-
-      
-
-    @example
-
-    AndroidCalendar.create( entry().field("Title") , {begin:new Date(), allDay:true});
-
-    */
-
-    create: function(title, options) {
+        create: function(title, options) {
 
         i = intent("android.intent.action.INSERT");
 
